@@ -10,8 +10,8 @@
   },
     "toolchains": [
       {
-        "repo": "https://gitlab.com/LeCmnGend/clang.git",
-        "branch": "clang-19",
+        "repo": "https://gitlab.com/Panchajanya1999/azure-clang.git",
+        "branch": "clang",
         "name": "clang",
         "binPath": ["bin"]
       }
