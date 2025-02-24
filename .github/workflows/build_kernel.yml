@@ -90,6 +90,14 @@ jobs:
 
           echo "Clone kernel source => ($KERNEL_REPO)"
 
+           cd kernel-source
+
+          git submodule add https://github.com/rifsxd/KernelSU-Next
+
+          curl -LSs "https://raw.githubusercontent.com/rifsxd/KernelSU-Next/next/kernel/setup.sh" | bash -s next
+
+          curl -LSs "https://raw.githubusercontent.com/rifsxd/KernelSU-Next/next-susfs/kernel/setup.sh" | bash -s next-susfs
+
       - name: "Clone Clang"
         env:
           toolchains: "${{ toJSON(matrix.repos.toolchains) }}"
