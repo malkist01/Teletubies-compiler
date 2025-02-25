@@ -3,8 +3,8 @@
   {
     "kernelSource": {
       "name": "kernel",
-      "repo": "https://github.com/malkist01/teletubies.git",
-      "branch": "su",
+      "repo": "https://github.com/malkist01/Android-A15.git",
+      "branch": "main",
       "device": "mido",
       "defconfig": "teletubies_defconfig"
   },
